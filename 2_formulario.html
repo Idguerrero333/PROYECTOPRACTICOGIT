@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <div class="container">
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <form action="contacto">
+            <div class="form-grup">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="form-grup">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Escribe tu correo" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="successMesage" class="success-Mesage">Mensaje enviado</div>
+    </div>
+</body>
+</html>
